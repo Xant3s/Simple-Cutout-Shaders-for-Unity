@@ -1,7 +1,7 @@
 #ifndef BOXINSIDE_INCLUDED
 #define BOXINSIDE_INCLUDED
 
-#include "Assets/Shader/PlaneCutoutUtil.hlsl"
+#include "Assets/Shader/Nodes/PlaneCutoutUtil.hlsl"
 
 void IsInsideBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, float3 BoxScale, float3 Position, out bool Out){
 	float3 localRight = {1, 0, 0};
