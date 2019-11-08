@@ -17,7 +17,7 @@ public class BoxController : MonoBehaviour {
     private static readonly int boxRotationMatrix_v4 = Shader.PropertyToID("_BoxRotationMatrix_v4");
 
     void Update() {
-        if(materials.Length == 0) return;
+        if(materials == null || materials.Length == 0) return;
         foreach(var material in materials) {
             material.SetVector(boxPosition, transform.position);
             //material.SetMatrix(boxRotationMatrix, Matrix4x4.Rotate(transform.rotation));

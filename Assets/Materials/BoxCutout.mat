@@ -14,8 +14,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2050
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -32,12 +33,12 @@ Material:
     - Vector4_46E42A4F: {r: 0, g: 0, b: 0, a: 0}
     - Vector4_DAB288F5: {r: 0.279, g: 0.452, b: 0, a: 1}
     - Vector4_F0D388B3: {r: 0, g: 0, b: 0, a: 0}
-    - _BoxPosition: {r: -0.626, g: 0.954, b: 0.401, a: 0}
+    - _BoxPosition: {r: -0.76909924, g: 1.1519756, b: -2.786, a: 0}
     - _BoxRotation: {r: -0, g: 0, b: 0, a: 0}
-    - _BoxRotationMatrix_v1: {r: -0.5878152, g: -0.17116031, b: -0.7906817, a: 0}
-    - _BoxRotationMatrix_v2: {r: 0.10487812, g: 0.952992, b: -0.2842653, a: 0}
-    - _BoxRotationMatrix_v3: {r: 0.80216837, g: -0.25002065, b: -0.5422323, a: 0}
+    - _BoxRotationMatrix_v1: {r: 1, g: 0, b: 0, a: 0}
+    - _BoxRotationMatrix_v2: {r: 0, g: 1, b: 0, a: 0}
+    - _BoxRotationMatrix_v3: {r: 0, g: 0, b: 1, a: 0}
     - _BoxRotationMatrix_v4: {r: 0, g: 0, b: 0, a: 1}
-    - _BoxScale: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _BoxScale: {r: 4.9291, g: 4.9291, b: 4.9291, a: 0}
     - _Test: {r: 5, g: 5, b: 5, a: 0}
     - _Test2: {r: 5, g: 5, b: 5, a: 6}
