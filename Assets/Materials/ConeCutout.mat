@@ -19,7 +19,11 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_AB3FD8E6: 1
     - Vector1_48DF12F2: 0
@@ -31,6 +35,7 @@ Material:
     m_Colors:
     - Vector3_347F0535: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_8D72A8CA: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.7372549, g: 0.7372549, b: 0.7372549, a: 0}
     - _ConeDir: {r: 0.99964917, g: 0, b: -0.026486874, a: 0}
     - _ConeTIp: {r: -2.231, g: 0.306, b: 0.069, a: 0}
     - _ConeTip: {r: -2.63, g: 0.445, b: 0.057, a: 0}

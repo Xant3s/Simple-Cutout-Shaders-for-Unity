@@ -22,6 +22,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - Boolean_AB3FD8E6: 0
+    - _Invert: 0
     m_Colors:
     - Vector3_6FCE7AE1: {r: 0, g: 1, b: 0, a: 0}
     - Vector3_ED995A3E: {r: 0, g: 0, b: 0, a: 0}

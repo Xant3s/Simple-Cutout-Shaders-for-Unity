@@ -23,6 +23,7 @@ Material:
     m_Floats:
     - Boolean_AB3FD8E6: 1
     - Vector1_9E9677E0: 0
+    - _Invert: 1
     - _Radius: 0.574
     m_Colors:
     - Vector3_2CCC0536: {r: 0, g: 0, b: 0, a: 0}
