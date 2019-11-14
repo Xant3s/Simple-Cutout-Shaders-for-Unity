@@ -19,12 +19,20 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_AB3FD8E6: 0
+    - _EdgeThickness: 0.04
+    - _Invert: 0
     m_Colors:
+    - Color_E37EBD01: {r: 0, g: 0.614023, b: 1, a: 0}
     - Vector3_6FCE7AE1: {r: 0, g: 1, b: 0, a: 0}
     - Vector3_ED995A3E: {r: 0, g: 0, b: 0, a: 0}
     - Vector4_DAB288F5: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 0}
     - _PlaneNormal: {r: -0.3413812, g: 0.93992496, b: 0, a: 0}
     - _PlanePosition: {r: -0.092, g: 0.204, b: 0, a: 0}

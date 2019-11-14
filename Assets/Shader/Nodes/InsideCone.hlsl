@@ -14,4 +14,11 @@ void IsInsideCone_float(float3 ConeTip, float3 ConeDir, float ConeHeight, float 
     Out = orthDistance < coneRadius;
 }
 
+void GetDistanceToCone_float(float3 coneTip, float3 coneDir, float coneHeight, float coneBaseRadius, float3 position, out float distanceToCone) {
+    float coneDist = dot(position - coneTip, coneDir);
+    float coneRadius = (coneDist / coneHeight) * coneBaseRadius;
+    float orthDistance = length((position - coneTip) - coneDist * coneDir);
+    distanceToCone = orthDistance;
+}
+
 #endif

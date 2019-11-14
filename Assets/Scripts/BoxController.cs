@@ -7,7 +7,6 @@ using UnityEngine;
 public class BoxController : MonoBehaviour {
 
     [SerializeField] private Material[] materials;
-    //private static readonly int sphereCutout = Shader.PropertyToID("Vector4_DAB288F5"); // XZY: position, W: radius
     private static readonly int boxPosition = Shader.PropertyToID("_BoxPosition");
     private static readonly int boxRotationMatrix = Shader.PropertyToID("_BoxRotationMatrix");
     private static readonly int boxScale = Shader.PropertyToID("_BoxScale");
