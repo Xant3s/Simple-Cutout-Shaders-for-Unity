@@ -84,7 +84,7 @@ void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, floa
 							distanceToDownPlane, distanceToFrontPlane, distanceToBackPlane};
 	Distance = 0;
 	for(int i = 0; i < 6; i++){
-		if(distances[i] < Distance) Distance = distances[i];
+		Distance = min(Distance, distances[i]);
 	}
 	Distance *= -1;
 }

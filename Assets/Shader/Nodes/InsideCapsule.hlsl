@@ -1,8 +1,8 @@
 #ifndef INSIDE_CAPSULE_DEFINED
 #define INSIDE_CAPSULE_DEFINED
 
-bool IsInsideSphere(float3 Center, float Radius, float3 Position){
-    return distance(Center, Position) <= Radius;
+bool IsInsideSphere(float3 center, float radius, float3 position) {
+    return distance(center, position) <= radius;
 }
 
 void IsInsideCapsule_float(float3 P1, float3 P2, float Radius, float3 Position, out bool Out){
@@ -23,6 +23,27 @@ void IsInsideCapsule_float(float3 P1, float3 P2, float Radius, float3 Position, 
 
     float dsq = pDir[0] * pDir[0] + pDir[1] * pDir[1] + pDir[2] * pDir[2] - d * d / lengthsq;
     Out = !(dsq > Radius * Radius);
+}
+
+float GetDistanceToSphere(float3 center, float radius, float3 position) {
+    return distance(center, position) - radius;
+}
+
+void GetDistanceToCapsule_float(float3 p1, float3 p2, float radius, float3 position, out float distanceToCapsule) {
+    float3 dir = p2 - p1;
+    float d = clamp(dot(position - p1, dir) / length(dir) * length(dir), 0, 1);
+    float3 pointOnLine = p1 + d * dir;
+    float3 dist = distance(pointOnLine, position);
+    float3 closestPoint;
+    int condition = dist * dist <= radius * radius;
+    if(condition){
+        closestPoint = position;
+    } else {
+        float3 delta = position - pointOnLine;
+        delta = normalize(delta) * radius;
+        closestPoint = pointOnLine + delta;
+    }
+    distanceToCapsule = distance(closestPoint, position);
 }
 
 #endif
