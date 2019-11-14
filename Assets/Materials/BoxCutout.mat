@@ -20,10 +20,15 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_AB3FD8E6: 1
     - Vector1_70D3D819: 0
+    - _EdgeThickness: 0.04
     - _Invert: 1
     m_Colors:
     - Vector3_188BC24: {r: 0, g: 0, b: 0, a: 0}
@@ -34,6 +39,7 @@ Material:
     - Vector4_46E42A4F: {r: 0, g: 0, b: 0, a: 0}
     - Vector4_DAB288F5: {r: 0.279, g: 0.452, b: 0, a: 1}
     - Vector4_F0D388B3: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 0}
     - _BoxPosition: {r: -0.626, g: 0.954, b: 0.401, a: 0}
     - _BoxRotation: {r: -0, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v1: {r: -0.5878152, g: -0.17116031, b: -0.7906817, a: 0}
@@ -41,5 +47,6 @@ Material:
     - _BoxRotationMatrix_v3: {r: 0.80216837, g: -0.25002065, b: -0.5422323, a: 0}
     - _BoxRotationMatrix_v4: {r: 0, g: 0, b: 0, a: 1}
     - _BoxScale: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _EdgeColor: {r: 0, g: 0.973356, b: 1, a: 0}
     - _Test: {r: 5, g: 5, b: 5, a: 0}
     - _Test2: {r: 5, g: 5, b: 5, a: 6}
