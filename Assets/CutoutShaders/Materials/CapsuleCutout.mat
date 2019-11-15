@@ -27,14 +27,14 @@ Material:
     m_Floats:
     - Boolean_AB3FD8E6: 1
     - Vector1_9E9677E0: 0
-    - _EdgeThickness: 0.05
+    - _EdgeThickness: 0.0008
     - _Invert: 1
-    - _Radius: 0.574
+    - _Radius: 0.1
     m_Colors:
     - Vector3_2CCC0536: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_57C5C6D3: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_CF6576A5: {r: 0, g: 0, b: 0, a: 0}
-    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     - _BoxPosition: {r: 0, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v1: {r: 1, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v2: {r: 0, g: 1, b: 0, a: 0}
@@ -42,6 +42,6 @@ Material:
     - _BoxRotationMatrix_v4: {r: 0, g: 0, b: 0, a: 1}
     - _BoxScale: {r: 1, g: 1, b: 1, a: 0}
     - _EdgeColor: {r: 0, g: 0.79665923, b: 1, a: 0}
-    - _P1: {r: -1.2070552, g: 1.092031, b: -0.033, a: 0}
-    - _P2: {r: -2.0009449, g: 0.483969, b: -0.033, a: 0}
+    - _P1: {r: 0, g: 0.1, b: 0, a: 0}
+    - _P2: {r: 0, g: -0.1, b: 0, a: 0}
     - _Position: {r: 0.151, g: 0.739, b: -0.26, a: 0}
