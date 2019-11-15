@@ -34,7 +34,7 @@ Material:
     - Vector3_2CCC0536: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_57C5C6D3: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_CF6576A5: {r: 0, g: 0, b: 0, a: 0}
-    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.33}
+    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.66999996}
     - _BoxPosition: {r: 0, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v1: {r: 1, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v2: {r: 0, g: 1, b: 0, a: 0}
