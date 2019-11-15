@@ -18,7 +18,7 @@ void GetDistanceToCone_float(float3 coneTip, float3 coneDir, float coneHeight, f
     float coneDist = dot(position - coneTip, coneDir);
     float coneRadius = (coneDist / coneHeight) * coneBaseRadius;
     float orthDistance = length((position - coneTip) - coneDist * coneDir);
-    distanceToCone = orthDistance;
+    distanceToCone = orthDistance - coneRadius;
 }
 
 #endif

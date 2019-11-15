@@ -34,7 +34,7 @@ Material:
     - Vector1_5B8FF1E5: 0
     - _ConeBaseRadius: 0.85714287
     - _ConeHeight: 4.14
-    - _EdgeThickness: 0.44
+    - _EdgeThickness: 0.02
     - _Invert: 1
     - _Radius: 1
     m_Colors:
