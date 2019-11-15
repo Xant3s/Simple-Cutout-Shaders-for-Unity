@@ -8,7 +8,7 @@ using UnityEngine;
 [RequireComponent(typeof(Light))]
 public class ConeController : MonoBehaviour {
 
-    [SerializeField] private Material[] materials;
+    public Material[] materials;
     private static readonly int coneTip = Shader.PropertyToID("_ConeTip"); 
     private static readonly int coneDir = Shader.PropertyToID("_ConeDir"); 
     private static readonly int coneHeight = Shader.PropertyToID("_ConeHeight"); 

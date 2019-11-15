@@ -6,7 +6,7 @@ using UnityEngine;
 [ExecuteAlways]
 public class SphereController : MonoBehaviour {
 
-    [SerializeField] private Material[] materials;
+    public Material[] materials;
     private static readonly int sphereCutout = Shader.PropertyToID("_SphereCutout"); // XZY: position, W: radius
 
     void Update() {

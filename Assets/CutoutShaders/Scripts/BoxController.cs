@@ -6,7 +6,7 @@ using UnityEngine;
 [ExecuteAlways]
 public class BoxController : MonoBehaviour {
 
-    [SerializeField] private Material[] materials;
+    public Material[] materials;
     private static readonly int boxPosition = Shader.PropertyToID("_BoxPosition");
     private static readonly int boxRotationMatrix = Shader.PropertyToID("_BoxRotationMatrix");
     private static readonly int boxScale = Shader.PropertyToID("_BoxScale");
