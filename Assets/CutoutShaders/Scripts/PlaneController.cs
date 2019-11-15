@@ -6,7 +6,7 @@ using UnityEngine;
 [ExecuteAlways]
 public class PlaneController: MonoBehaviour {
 
-    [SerializeField] private Material[] materials;
+    public Material[] materials;
     private static readonly int planePosition = Shader.PropertyToID("_PlanePosition");
     private static readonly int planeNormal = Shader.PropertyToID("_PlaneNormal");
 

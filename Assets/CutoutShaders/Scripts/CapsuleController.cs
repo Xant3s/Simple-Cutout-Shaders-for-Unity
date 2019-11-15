@@ -7,7 +7,7 @@ using UnityEngine;
 [ExecuteAlways]
 public class CapsuleController : MonoBehaviour {
 
-    [SerializeField] private Material[] materials;
+    public Material[] materials;
     private static readonly int p1 = Shader.PropertyToID("_P1"); 
     private static readonly int p2 = Shader.PropertyToID("_P2"); 
     private static readonly int r = Shader.PropertyToID("_Radius"); 
