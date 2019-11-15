@@ -39,7 +39,7 @@ Material:
     - Vector4_46E42A4F: {r: 0, g: 0, b: 0, a: 0}
     - Vector4_DAB288F5: {r: 0.279, g: 0.452, b: 0, a: 1}
     - Vector4_F0D388B3: {r: 0, g: 0, b: 0, a: 0}
-    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _BoxPosition: {r: -0.626, g: 0.954, b: 0.401, a: 0}
     - _BoxRotation: {r: -0, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v1: {r: -0.5878152, g: -0.17116031, b: -0.7906817, a: 0}
