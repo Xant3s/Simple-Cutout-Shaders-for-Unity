@@ -29,7 +29,7 @@ public class ConeController : MonoBehaviour {
             material.SetVector(coneTip, transform.position);
             material.SetVector(coneDir, transform.forward);
             material.SetFloat(coneHeight, spotLight.range);
-            material.SetFloat(coneBaseRadius, spotLight.spotAngle / 35.0f);
+            material.SetFloat(coneBaseRadius, spotLight.spotAngle);
         }
     }
 }
