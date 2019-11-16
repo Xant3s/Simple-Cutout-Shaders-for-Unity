@@ -39,7 +39,7 @@ Material:
     m_Colors:
     - Vector3_565ABEC6: {r: 0, g: 0, b: 0, a: 0}
     - Vector4_DAB288F5: {r: 0.314, g: 0.474, b: 0, a: 1}
-    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _EdgeColor: {r: 0, g: 0.8666668, b: 1, a: 0}
     - _SphereCutout: {r: 0.314, g: 0.474, b: 0, a: 1}
