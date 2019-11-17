@@ -1,8 +1,6 @@
 #ifndef INSIDE_CONE_DEFINED
 #define INSIDE_CONE_DEFINED
 
-#include "./PlaneCutoutUtil.hlsl"
-
 void IsInsideCone_float(float3 coneTip, float3 coneDir, float coneHeight, float coneBaseRadius, float3 position, out bool isInside){
     float3 coneDist = dot(position - coneTip, coneDir);
     int outside = coneDist > coneHeight || coneDist < 0;
