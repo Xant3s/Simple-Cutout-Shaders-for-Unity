@@ -87,16 +87,7 @@ void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, floa
 		Distance = max(Distance, distances[i]);
 	}
 
-	// bool test;
-	// IsInsideBox_float(BoxPosition, BoxRotationMatrix, BoxScale, Position, test);
-	// if(test){
-	// 	Distance *= 1;
-	// } else{
-	// 	Distance *= -1;
-	// }
-	if(!isInverted) {
-		Distance *= -1;
-	}
+	Distance *= (-1 * !isInverted) + (1 * isInverted);
 }
 
 #endif
