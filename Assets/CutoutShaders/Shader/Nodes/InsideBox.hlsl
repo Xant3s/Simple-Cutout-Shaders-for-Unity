@@ -44,7 +44,7 @@ void IsInsideBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, float3 Bo
 			!isInFrontOfFrontPlane && !isInFrontOfBackPlane;
 }
 
-void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, float3 BoxScale, float3 Position, out float Distance){
+void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, float3 BoxScale, float3 Position, bool isInverted, out float Distance){
 	float3 localRight = {1, 0, 0};
 	float3 localUp =  {0, 1, 0};
 	float3 localFront = {0, 0, -1};
@@ -84,9 +84,10 @@ void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, floa
 							distanceToDownPlane, distanceToFrontPlane, distanceToBackPlane};
 	Distance = 0;
 	for(int i = 0; i < 6; i++){
-		Distance = min(Distance, distances[i]);
+		Distance = max(Distance, distances[i]);
 	}
-	Distance *= -1;
+
+	Distance *= (-1 * !isInverted) + (1 * isInverted);
 }
 
 #endif
