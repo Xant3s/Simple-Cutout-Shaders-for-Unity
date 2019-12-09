@@ -25,14 +25,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _EdgeThickness: 0.27
+    - _EdgeThickness: 0.505
     - _Invert: 0
     m_Colors:
-    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BoxPosition: {r: -0.713, g: 0.954, b: 0.362, a: 0}
-    - _BoxRotationMatrix_v1: {r: -0.5878152, g: -0.17116031, b: -0.7906817, a: 0}
-    - _BoxRotationMatrix_v2: {r: 0.10487812, g: 0.952992, b: -0.2842653, a: 0}
-    - _BoxRotationMatrix_v3: {r: 0.80216837, g: -0.25002065, b: -0.5422323, a: 0}
+    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - _BoxPosition: {r: -1.823, g: 1.717, b: 1.862, a: 0}
+    - _BoxRotationMatrix_v1: {r: 1, g: 0, b: 0, a: 0}
+    - _BoxRotationMatrix_v2: {r: 0, g: 1, b: 0, a: 0}
+    - _BoxRotationMatrix_v3: {r: 0, g: 0, b: 1, a: 0}
     - _BoxRotationMatrix_v4: {r: 0, g: 0, b: 0, a: 1}
-    - _BoxScale: {r: 0.79915, g: 0.79915, b: 0.79915, a: 0}
-    - _EdgeColor: {r: 0, g: 0.973356, b: 1, a: 0}
+    - _BoxScale: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _EdgeColor: {r: 0.14509805, g: 0.7372549, b: 1, a: 1}
