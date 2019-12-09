@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Edge
-  m_Shader: {fileID: -6465566751694194690, guid: 2f423c0c01d157e45b4db56fa9e705eb,
+  m_Shader: {fileID: -6465566751694194690, guid: 793ef0a22aa6a23438008333a1a4aec8,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,9 +21,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_3138584E: 5
-    - Vector1_9F672706: 0.14
-    - Vector1_B10A503D: 0.74
+    - Vector1_8FAA358A: 0.14
+    - Vector1_F079BDA3: 5
+    - Vector1_F62A06C3: 0.74
     m_Colors:
-    - Color_9816C950: {r: 0, g: 0.9201922, b: 1, a: 0}
-    - Color_CE32214E: {r: 0.080322154, g: 0.49357998, b: 0.8962264, a: 0}
+    - Color_1202CEEF: {r: 0.078431375, g: 0.49411765, b: 0.8980392, a: 0}
