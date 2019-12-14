@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CapsuleCutout
-  m_Shader: {fileID: -6465566751694194690, guid: 3d97301cf3df58f49932afdb94af4bdf,
+  m_Shader: {fileID: -6465566751694194690, guid: a50cc929fafa0714d820adcc5e8bfd9c,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -29,7 +29,7 @@ Material:
     - _Invert: 1
     - _Radius: 0.1
     m_Colors:
-    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.66999996}
     - _EdgeColor: {r: 0.145098, g: 0.737255, b: 1, a: 1}
     - _P1: {r: 0, g: 0.1, b: 0, a: 0}
     - _P2: {r: 0, g: -0.1, b: 0, a: 0}

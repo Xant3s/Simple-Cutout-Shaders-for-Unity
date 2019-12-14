@@ -25,9 +25,5 @@ Material:
     - Vector1_9F672706: 0.14
     - Vector1_B10A503D: 0.74
     m_Colors:
-<<<<<<< HEAD:Assets/CutoutShaders/Resources/Materials/Edge.mat
     - Color_1202CEEF: {r: 0.14509805, g: 0.7372549, b: 1, a: 1}
-=======
-    - Color_9816C950: {r: 0, g: 0.9201922, b: 1, a: 0}
-    - Color_CE32214E: {r: 0.080322154, g: 0.49357998, b: 0.8962264, a: 0}
->>>>>>> develop-upstream:Assets/CutoutShaders/Materials/Edge.mat
+
