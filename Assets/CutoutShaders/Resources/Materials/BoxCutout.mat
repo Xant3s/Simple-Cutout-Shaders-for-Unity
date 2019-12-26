@@ -28,7 +28,7 @@ Material:
     - _EdgeThickness: 0.505
     - _Invert: 0
     m_Colors:
-    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.66999996}
     - _BoxPosition: {r: -1.823, g: 1.717, b: 1.862, a: 0}
     - _BoxRotationMatrix_v1: {r: 1, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v2: {r: 0, g: 1, b: 0, a: 0}
