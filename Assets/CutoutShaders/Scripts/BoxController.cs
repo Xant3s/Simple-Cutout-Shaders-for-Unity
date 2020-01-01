@@ -19,12 +19,7 @@ public class BoxController : MonoBehaviour {
         if(materials == null || materials.Length == 0) return;
         foreach(var material in materials) {
             material.SetVector(boxPosition, transform.position);
-            //material.SetMatrix(boxRotationMatrix, Matrix4x4.Rotate(transform.rotation));
-            //var m = Matrix4x4.identity;
-            //m[0, 0] = 0;
-            //material.SetMatrix(boxRotationMatrix, m);
             material.SetVector(boxScale, transform.localScale);
-
             var mat = Matrix4x4.Rotate(transform.rotation);
             material.SetVector(boxRotationMatrix_v1, mat.GetRow(0));
             material.SetVector(boxRotationMatrix_v2, mat.GetRow(1));
