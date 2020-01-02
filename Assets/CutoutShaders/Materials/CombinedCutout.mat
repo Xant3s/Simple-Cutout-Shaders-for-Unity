@@ -32,7 +32,7 @@ Material:
     - _ConeBaseRadius: 17.3
     - _ConeEnabled: 0
     - _ConeHeight: 1.52
-    - _ConeInvert: 0
+    - _ConeInvert: 1
     - _EdgeThickness: 0.003
     - _Invert: 1
     - _Radius: 0.574
