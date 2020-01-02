@@ -10,7 +10,7 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector4ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"Cutout Sphere Position and Radius\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"4929194c-fcf5-4307-92f9-cf54bd94fed4\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_DAB288F5\",\n    \"m_OverrideReferenceName\": \"_SphereCutout\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 1.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"Cutout Sphere Position and Radius\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"4929194c-fcf5-4307-92f9-cf54bd94fed4\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_DAB288F5\",\n    \"m_OverrideReferenceName\": \"_SphereCutout\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 1.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
