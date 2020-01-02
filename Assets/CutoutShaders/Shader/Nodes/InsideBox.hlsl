@@ -11,19 +11,12 @@ void IsInsideBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, float3 Bo
 	localUp = mul(BoxRotationMatrix, float4(localUp, 0)).xyz;
 	localFront = mul(BoxRotationMatrix, float4(localFront, 0)).xyz;
 
-	float3 normalRight = (BoxPosition + localRight) - BoxPosition;
-	float3 normalLeft = (BoxPosition - localRight) - BoxPosition;
-	float3 normalUp = (BoxPosition + localUp) - BoxPosition;
-	float3 normalDown = (BoxPosition - localUp) - BoxPosition;
-	float3 normalFront = (BoxPosition + localFront) - BoxPosition;
-	float3 normalBack = (BoxPosition - localFront) - BoxPosition;
-
-	float3 rightPlanePos = BoxPosition + normalRight * BoxScale[0] / 2.0;
-	float3 leftPlanePos = BoxPosition + normalLeft * BoxScale[0] / 2.0;
-	float3 upPlanePos = BoxPosition + normalUp * BoxScale[0] / 2.0;
-	float3 downPlanePos = BoxPosition + normalDown * BoxScale[0] / 2.0;
-	float3 frontPlanePos = BoxPosition + normalFront * BoxScale[0] / 2.0;
-	float3 backPlanePos = BoxPosition + normalBack * BoxScale[0] / 2.0;
+	float3 rightPlanePos = BoxPosition + localRight * BoxScale[0] / 2.0;
+	float3 leftPlanePos = BoxPosition - localRight * BoxScale[0] / 2.0;
+	float3 upPlanePos = BoxPosition + localUp * BoxScale[0] / 2.0;
+	float3 downPlanePos = BoxPosition - localUp * BoxScale[0] / 2.0;
+	float3 frontPlanePos = BoxPosition + localFront * BoxScale[0] / 2.0;
+	float3 backPlanePos = BoxPosition - localFront * BoxScale[0] / 2.0;
 
 	bool isInFrontOfRightPlane;
 	bool isInFrontOfLeftPlane;
@@ -32,19 +25,19 @@ void IsInsideBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, float3 Bo
 	bool isInFrontOfFrontPlane;
 	bool isInFrontOfBackPlane;
 
-	IsInFront_float(rightPlanePos, normalRight, Position, isInFrontOfRightPlane);
-	IsInFront_float(leftPlanePos, normalLeft, Position, isInFrontOfLeftPlane);
-	IsInFront_float(upPlanePos, normalUp, Position, isInFrontOfUpPlane);
-	IsInFront_float(downPlanePos, normalDown, Position, isInFrontOfDownPlane);
-	IsInFront_float(frontPlanePos, normalFront, Position, isInFrontOfFrontPlane);
-	IsInFront_float(backPlanePos, normalBack, Position, isInFrontOfBackPlane);
+	IsInFront_float(rightPlanePos, localRight, Position, isInFrontOfRightPlane);
+	IsInFront_float(leftPlanePos, -localRight, Position, isInFrontOfLeftPlane);
+	IsInFront_float(upPlanePos, localUp, Position, isInFrontOfUpPlane);
+	IsInFront_float(downPlanePos, -localUp, Position, isInFrontOfDownPlane);
+	IsInFront_float(frontPlanePos, localFront, Position, isInFrontOfFrontPlane);
+	IsInFront_float(backPlanePos, -localFront, Position, isInFrontOfBackPlane);
 
 	Out = !isInFrontOfRightPlane && !isInFrontOfLeftPlane &&
 			!isInFrontOfUpPlane && !isInFrontOfDownPlane &&
 			!isInFrontOfFrontPlane && !isInFrontOfBackPlane;
 }
 
-void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, float3 BoxScale, float3 Position, bool isInverted, out float Distance){
+void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, float3 BoxScale, float3 Position, float EdgeThickness, bool isInverted, out float Distance){
 	float3 localRight = {1, 0, 0};
 	float3 localUp =  {0, 1, 0};
 	float3 localFront = {0, 0, -1};
@@ -52,19 +45,12 @@ void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, floa
 	localUp = mul(BoxRotationMatrix, float4(localUp, 0)).xyz;
 	localFront = mul(BoxRotationMatrix, float4(localFront, 0)).xyz;
 
-	float3 normalRight = (BoxPosition + localRight) - BoxPosition;
-	float3 normalLeft = (BoxPosition - localRight) - BoxPosition;
-	float3 normalUp = (BoxPosition + localUp) - BoxPosition;
-	float3 normalDown = (BoxPosition - localUp) - BoxPosition;
-	float3 normalFront = (BoxPosition + localFront) - BoxPosition;
-	float3 normalBack = (BoxPosition - localFront) - BoxPosition;
-
-	float3 rightPlanePos = BoxPosition + normalRight * BoxScale[0] / 2.0;
-	float3 leftPlanePos = BoxPosition + normalLeft * BoxScale[0] / 2.0;
-	float3 upPlanePos = BoxPosition + normalUp * BoxScale[0] / 2.0;
-	float3 downPlanePos = BoxPosition + normalDown * BoxScale[0] / 2.0;
-	float3 frontPlanePos = BoxPosition + normalFront * BoxScale[0] / 2.0;
-	float3 backPlanePos = BoxPosition + normalBack * BoxScale[0] / 2.0;
+	float3 rightPlanePos = BoxPosition + localRight * BoxScale[0] / 2.0;
+	float3 leftPlanePos = BoxPosition - localRight * BoxScale[0] / 2.0;
+	float3 upPlanePos = BoxPosition + localUp * BoxScale[0] / 2.0;
+	float3 downPlanePos = BoxPosition - localUp * BoxScale[0] / 2.0;
+	float3 frontPlanePos = BoxPosition + localFront * BoxScale[0] / 2.0;
+	float3 backPlanePos = BoxPosition - localFront * BoxScale[0] / 2.0;
 
 	float distanceToRightPlane;
 	float distanceToLeftPlane;
@@ -73,21 +59,81 @@ void GetDistanceToBox_float(float3 BoxPosition, float4x4 BoxRotationMatrix, floa
 	float distanceToFrontPlane;
 	float distanceToBackPlane;
 
-	GetDistanceToPlane_float(rightPlanePos, normalRight, Position, distanceToRightPlane);
-	GetDistanceToPlane_float(leftPlanePos, normalLeft, Position, distanceToLeftPlane);
-	GetDistanceToPlane_float(upPlanePos, normalUp, Position, distanceToUpPlane);
-	GetDistanceToPlane_float(downPlanePos, normalDown, Position, distanceToDownPlane);
-	GetDistanceToPlane_float(frontPlanePos, normalFront, Position, distanceToFrontPlane);
-	GetDistanceToPlane_float(backPlanePos, normalBack, Position, distanceToBackPlane);
+	GetDistanceToPlane_float(rightPlanePos, localRight, Position, distanceToRightPlane);
+	GetDistanceToPlane_float(leftPlanePos, -localRight, Position, distanceToLeftPlane);
+	GetDistanceToPlane_float(upPlanePos, localUp, Position, distanceToUpPlane);
+	GetDistanceToPlane_float(downPlanePos, -localUp, Position, distanceToDownPlane);
+	GetDistanceToPlane_float(frontPlanePos, localFront, Position, distanceToFrontPlane);
+	GetDistanceToPlane_float(backPlanePos, -localFront, Position, distanceToBackPlane);
 
 	float distances [6] = {distanceToRightPlane, distanceToLeftPlane, distanceToUpPlane, 
 							distanceToDownPlane, distanceToFrontPlane, distanceToBackPlane};
-	Distance = 0;
+	float infinity = 10000000;
+	Distance = infinity;
 	for(int i = 0; i < 6; i++){
-		Distance = max(Distance, distances[i]);
+		Distance = min(Distance, distances[i]);
 	}
 
-	Distance *= (-1 * !isInverted) + (1 * isInverted);
+	if(isInverted) {
+		Distance = infinity;
+		bool isInFrontOfRightPlane;
+		bool isInFrontOfLeftPlane;
+		bool isInFrontOfUpPlane;
+		bool isInFrontOfDownPlane;
+		bool isInFrontOfFrontPlane;
+		bool isInFrontOfBackPlane;
+
+		IsInFront_float(rightPlanePos, localRight, Position, isInFrontOfRightPlane);
+		IsInFront_float(leftPlanePos, -localRight, Position, isInFrontOfLeftPlane);
+		IsInFront_float(upPlanePos, localUp, Position, isInFrontOfUpPlane);
+		IsInFront_float(downPlanePos, -localUp, Position, isInFrontOfDownPlane);
+		IsInFront_float(frontPlanePos, localFront, Position, isInFrontOfFrontPlane);
+		IsInFront_float(backPlanePos, -localFront, Position, isInFrontOfBackPlane);
+
+		bool rightOK = distanceToRightPlane <= EdgeThickness;
+		bool leftOK = distanceToLeftPlane <= EdgeThickness;
+		bool frontOK = distanceToFrontPlane <= EdgeThickness;
+		bool backOK = distanceToBackPlane <= EdgeThickness;
+		bool upOK = distanceToUpPlane <= EdgeThickness;
+		bool downOK = distanceToDownPlane <= EdgeThickness;
+
+		if((!isInFrontOfRightPlane || rightOK) 
+			&& (!isInFrontOfLeftPlane || leftOK)
+			&& (!isInFrontOfUpPlane || upOK)
+			&& (!isInFrontOfDownPlane || downOK )) {
+			Distance = min(Distance, distanceToFrontPlane);
+		}
+		if((!isInFrontOfRightPlane || rightOK) 
+			&& (!isInFrontOfLeftPlane || leftOK)
+			&& (!isInFrontOfUpPlane || upOK)
+			&& (!isInFrontOfDownPlane || downOK )) {
+			Distance = min(Distance, distanceToBackPlane);
+		}
+		if((!isInFrontOfFrontPlane || frontOK) 
+			&& (!isInFrontOfBackPlane || backOK)
+			&& (!isInFrontOfUpPlane || upOK)
+			&& (!isInFrontOfDownPlane || downOK )) {
+			Distance = min(Distance, distanceToRightPlane);
+		}
+		if((!isInFrontOfFrontPlane || frontOK) 
+			&& (!isInFrontOfBackPlane || backOK)
+			&& (!isInFrontOfUpPlane || upOK)
+			&& (!isInFrontOfDownPlane || downOK )) {
+			Distance = min(Distance, distanceToLeftPlane);
+		}
+		if((!isInFrontOfRightPlane || rightOK) 
+			&& (!isInFrontOfLeftPlane || leftOK)
+			&& (!isInFrontOfFrontPlane || frontOK)
+			&& (!isInFrontOfBackPlane || backOK )) {
+			Distance = min(Distance, distanceToUpPlane);
+		}
+		if((!isInFrontOfRightPlane || rightOK) 
+			&& (!isInFrontOfLeftPlane || leftOK)
+			&& (!isInFrontOfFrontPlane || frontOK)
+			&& (!isInFrontOfBackPlane || backOK )) {
+			Distance = min(Distance, distanceToDownPlane);
+		}
+	}
 }
 
 #endif

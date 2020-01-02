@@ -6,16 +6,35 @@ using UnityEngine;
 
 [ExecuteAlways]
 public class CapsuleController : MonoBehaviour {
-
     public Material[] materials;
-    private static readonly int p1 = Shader.PropertyToID("_P1"); 
-    private static readonly int p2 = Shader.PropertyToID("_P2"); 
-    private static readonly int r = Shader.PropertyToID("_Radius"); 
+    private static readonly int p1 = Shader.PropertyToID("_P1");
+    private static readonly int p2 = Shader.PropertyToID("_P2");
+    private static readonly int r = Shader.PropertyToID("_Radius");
+    private static readonly int capsuleEnabled = Shader.PropertyToID("_CapsuleEnabled");
 
+
+    private void OnEnable() {
+        setCapsuleEnabled(true);
+    }
+
+    private void OnDisable() {
+        setCapsuleEnabled(false);
+    }
+
+    private void setCapsuleEnabled(bool value) {
+        try {
+            foreach (var material in materials) {
+                material.SetFloat(capsuleEnabled, value ? 1 : 0);
+            }
+        }
+        catch (Exception) {
+            // ignored
+        }
+    }
 
     void Update() {
-        if(materials == null || materials.Length == 0) return;
-        foreach(var material in materials) {
+        if (materials == null || materials.Length == 0) return;
+        foreach (var material in materials) {
             var position = transform.position;
             var radius = transform.localScale.x;
             var point1 = position + transform.up * transform.localScale.y / 2.0f;

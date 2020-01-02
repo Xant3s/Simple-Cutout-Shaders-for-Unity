@@ -30,7 +30,7 @@ Material:
     - _EdgeThickness: 0.003
     - _Invert: 1
     m_Colors:
-    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
-    - _ConeDir: {r: 0.96973175, g: 0.24273972, b: -0.026422169, a: 0}
-    - _ConeTip: {r: -2.394, g: 0.435, b: 0.010000001, a: 0}
+    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.66999996}
+    - _ConeDir: {r: 0, g: 0, b: 1, a: 0}
+    - _ConeTip: {r: 0, g: 0, b: 0, a: 0}
     - _EdgeColor: {r: 0.14509805, g: 0.7372549, b: 1, a: 1}
