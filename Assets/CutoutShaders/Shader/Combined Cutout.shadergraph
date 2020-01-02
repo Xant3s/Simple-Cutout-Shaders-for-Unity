@@ -104,6 +104,12 @@
         },
         {
             "typeInfo": {
+                "fullName": "UnityEditor.ShaderGraph.Vector1ShaderProperty"
+            },
+            "JSONnodeData": "{\n    \"m_Name\": \"Cone Enabled\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"886df7c3-94cc-4218-b8af-e8dd119efa18\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_C56C3DA2\",\n    \"m_OverrideReferenceName\": \"_ConeEnabled\",\n    \"m_Precision\": 0,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    },\n    \"m_Hidden\": false\n}"
+        },
+        {
+            "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.BooleanShaderProperty"
             },
             "JSONnodeData": "{\n    \"m_Name\": \"Cone Invert\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"cdfa1f13-4d73-4b4e-9f4a-eaf1899a532d\"\n    },\n    \"m_DefaultReferenceName\": \"Boolean_AF14CF8E\",\n    \"m_OverrideReferenceName\": \"_ConeInvert\",\n    \"m_Precision\": 0,\n    \"m_Value\": false,\n    \"m_Hidden\": false\n}"
@@ -131,12 +137,6 @@
                 "fullName": "UnityEditor.ShaderGraph.Vector1ShaderProperty"
             },
             "JSONnodeData": "{\n    \"m_Name\": \"Cone Base Raidus\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"5e862323-f5dd-4e3d-8cc9-738b529cb5d2\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_B1C6E786\",\n    \"m_OverrideReferenceName\": \"_ConeBaseRadius\",\n    \"m_Precision\": 0,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    },\n    \"m_Hidden\": false\n}"
-        },
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.ShaderGraph.Vector1ShaderProperty"
-            },
-            "JSONnodeData": "{\n    \"m_Name\": \"Cone Enabled\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"886df7c3-94cc-4218-b8af-e8dd119efa18\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_C56C3DA2\",\n    \"m_OverrideReferenceName\": \"_ConeEnabled\",\n    \"m_Precision\": 0,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    },\n    \"m_Hidden\": false\n}"
         }
     ],
     "m_SerializableNodes": [

@@ -25,14 +25,14 @@ public class ConeController : MonoBehaviour {
     }
 
     private void OnEnable() {
-        setConeEnabled(true);
+        SetConeEnabled(true);
     }
 
     private void OnDisable() {
-        setConeEnabled(false);
+        SetConeEnabled(false);
     }
 
-    private void setConeEnabled(bool value) {
+    public void SetConeEnabled(bool value) {
         try {
             foreach (var material in materials) {
                 material.SetFloat(coneEnabled, value ? 1 : 0);

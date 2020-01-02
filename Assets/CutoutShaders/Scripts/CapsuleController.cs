@@ -14,14 +14,14 @@ public class CapsuleController : MonoBehaviour {
 
 
     private void OnEnable() {
-        setCapsuleEnabled(true);
+        SetCapsuleEnabled(true);
     }
 
     private void OnDisable() {
-        setCapsuleEnabled(false);
+        SetCapsuleEnabled(false);
     }
 
-    private void setCapsuleEnabled(bool value) {
+    public void SetCapsuleEnabled(bool value) {
         try {
             foreach (var material in materials) {
                 material.SetFloat(capsuleEnabled, value ? 1 : 0);
