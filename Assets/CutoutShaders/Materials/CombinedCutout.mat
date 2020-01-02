@@ -37,7 +37,7 @@ Material:
     - _Invert: 1
     - _Radius: 0.574
     m_Colors:
-    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.39215687}
     - _BoxPosition: {r: -0.945, g: 0.876, b: -0.114, a: 0}
     - _BoxRotationMatrix_v1: {r: 1, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v2: {r: 0, g: 1, b: 0, a: 0}

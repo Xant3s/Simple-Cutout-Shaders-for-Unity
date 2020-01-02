@@ -10,37 +10,37 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector3ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"BoxPosition\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"db34f3c2-09e2-4a70-8021-18afb790de53\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_3EE213E6\",\n    \"m_OverrideReferenceName\": \"_BoxPosition\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"BoxPosition\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"db34f3c2-09e2-4a70-8021-18afb790de53\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_3EE213E6\",\n    \"m_OverrideReferenceName\": \"_BoxPosition\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector3ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"BoxScale\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"5c47c73b-c64e-48d2-a789-541a882a1ab7\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_DF0A7B90\",\n    \"m_OverrideReferenceName\": \"_BoxScale\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 1.0,\n        \"y\": 1.0,\n        \"z\": 1.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"BoxScale\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"5c47c73b-c64e-48d2-a789-541a882a1ab7\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_DF0A7B90\",\n    \"m_OverrideReferenceName\": \"_BoxScale\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 1.0,\n        \"y\": 1.0,\n        \"z\": 1.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector4ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"BoxRotationMatrix_v1\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"779818a0-2daf-4f01-9660-ccf49ec0b51d\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_46E42A4F\",\n    \"m_OverrideReferenceName\": \"_BoxRotationMatrix_v1\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 1.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"BoxRotationMatrix_v1\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"779818a0-2daf-4f01-9660-ccf49ec0b51d\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_46E42A4F\",\n    \"m_OverrideReferenceName\": \"_BoxRotationMatrix_v1\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 1.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector4ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"BoxRotationMatrix_v2\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"8b920bd9-5973-4c08-a7c8-ebb03dce36f5\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_F0D388B3\",\n    \"m_OverrideReferenceName\": \"_BoxRotationMatrix_v2\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 1.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"BoxRotationMatrix_v2\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"8b920bd9-5973-4c08-a7c8-ebb03dce36f5\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_F0D388B3\",\n    \"m_OverrideReferenceName\": \"_BoxRotationMatrix_v2\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 1.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector4ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"BoxRotationMatrix_v3\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"53c7a966-76dd-4133-b402-0e0485cbf95e\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_212581EE\",\n    \"m_OverrideReferenceName\": \"_BoxRotationMatrix_v3\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 1.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"BoxRotationMatrix_v3\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"53c7a966-76dd-4133-b402-0e0485cbf95e\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_212581EE\",\n    \"m_OverrideReferenceName\": \"_BoxRotationMatrix_v3\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 1.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector4ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"BoxRotationMatrix_v4\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"6a983f43-665d-4e63-b5c4-046343a80972\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_25E34DD9\",\n    \"m_OverrideReferenceName\": \"_BoxRotationMatrix_v4\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 1.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"BoxRotationMatrix_v4\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"6a983f43-665d-4e63-b5c4-046343a80972\"\n    },\n    \"m_DefaultReferenceName\": \"Vector4_25E34DD9\",\n    \"m_OverrideReferenceName\": \"_BoxRotationMatrix_v4\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 1.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
