@@ -17,14 +17,14 @@ public class BoxController : MonoBehaviour {
 
 
     private void OnEnable() {
-        setBoxEnabled(true);
+        SetBoxEnabled(true);
     }
 
     private void OnDisable() {
-        setBoxEnabled(false);
+        SetBoxEnabled(false);
     }
 
-    private void setBoxEnabled(bool value) {
+    public void SetBoxEnabled(bool value) {
         try {
             foreach (var material in materials) {
                 material.SetFloat(boxEnabled, value ? 1 : 0);
