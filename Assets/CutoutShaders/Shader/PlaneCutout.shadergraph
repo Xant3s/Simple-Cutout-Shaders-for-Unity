@@ -10,13 +10,13 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector3ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"Plane Position\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"7fc63738-6f3b-475c-99a3-811056795691\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_ED995A3E\",\n    \"m_OverrideReferenceName\": \"_PlanePosition\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"Plane Position\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"7fc63738-6f3b-475c-99a3-811056795691\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_ED995A3E\",\n    \"m_OverrideReferenceName\": \"_PlanePosition\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector3ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"Plane Normal\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"03b49c64-6904-443a-ac1c-cd04abff957d\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_6FCE7AE1\",\n    \"m_OverrideReferenceName\": \"_PlaneNormal\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"Plane Normal\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"03b49c64-6904-443a-ac1c-cd04abff957d\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_6FCE7AE1\",\n    \"m_OverrideReferenceName\": \"_PlaneNormal\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {

@@ -10,25 +10,25 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector3ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"ConeTip\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"c1978faa-da0a-4959-8e95-e188e477f6e4\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_8D72A8CA\",\n    \"m_OverrideReferenceName\": \"_ConeTip\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"ConeTip\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"c1978faa-da0a-4959-8e95-e188e477f6e4\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_8D72A8CA\",\n    \"m_OverrideReferenceName\": \"_ConeTip\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector3ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"ConeDir\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"8da463df-2bf1-4a8b-8ad8-a5823e2bbe7b\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_347F0535\",\n    \"m_OverrideReferenceName\": \"_ConeDir\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"ConeDir\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"8da463df-2bf1-4a8b-8ad8-a5823e2bbe7b\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_347F0535\",\n    \"m_OverrideReferenceName\": \"_ConeDir\",\n    \"m_Precision\": 0,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector1ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"ConeHeight\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"9ba3cf8a-6a94-414b-b57a-580007a34b80\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_48DF12F2\",\n    \"m_OverrideReferenceName\": \"_ConeHeight\",\n    \"m_Precision\": 0,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"ConeHeight\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"9ba3cf8a-6a94-414b-b57a-580007a34b80\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_48DF12F2\",\n    \"m_OverrideReferenceName\": \"_ConeHeight\",\n    \"m_Precision\": 0,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Vector1ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Name\": \"ConeBaseRadius\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"56963acd-7539-4390-b303-a428057b3912\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_5B8FF1E5\",\n    \"m_OverrideReferenceName\": \"_ConeBaseRadius\",\n    \"m_Precision\": 0,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    },\n    \"m_Hidden\": false\n}"
+            "JSONnodeData": "{\n    \"m_Name\": \"ConeBaseRadius\",\n    \"m_GeneratePropertyBlock\": false,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"56963acd-7539-4390-b303-a428057b3912\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_5B8FF1E5\",\n    \"m_OverrideReferenceName\": \"_ConeBaseRadius\",\n    \"m_Precision\": 0,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    },\n    \"m_Hidden\": false\n}"
         },
         {
             "typeInfo": {
