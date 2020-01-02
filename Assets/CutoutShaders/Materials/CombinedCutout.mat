@@ -26,16 +26,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BoxEnabled: 1
+    - _BoxInvert: 0
     - _CapsuleEnabled: 1
+    - _CapsuleInvert: 1
     - _ConeBaseRadius: 17.3
     - _ConeEnabled: 0
     - _ConeHeight: 1.52
+    - _ConeInvert: 0
     - _EdgeThickness: 0.003
     - _Invert: 1
     - _Radius: 0.574
     m_Colors:
     - _BaseMapColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BoxPosition: {r: -0.267, g: 0.348, b: -0.446, a: 0}
+    - _BoxPosition: {r: -0.945, g: 0.876, b: -0.114, a: 0}
     - _BoxRotationMatrix_v1: {r: 1, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v2: {r: 0, g: 1, b: 0, a: 0}
     - _BoxRotationMatrix_v3: {r: 0, g: 0, b: 1, a: 0}
