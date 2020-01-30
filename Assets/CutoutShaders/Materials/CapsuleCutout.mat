@@ -14,7 +14,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3500
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -42,6 +42,6 @@ Material:
     - _BoxRotationMatrix_v4: {r: 0, g: 0, b: 0, a: 1}
     - _BoxScale: {r: 1, g: 1, b: 1, a: 0}
     - _EdgeColor: {r: 0, g: 0.79665923, b: 1, a: 0}
-    - _P1: {r: -1.2070552, g: 1.092031, b: -0.033, a: 0}
-    - _P2: {r: -2.0009449, g: 0.483969, b: -0.033, a: 0}
+    - _P1: {r: -1.2690552, g: 1.173031, b: -0.033, a: 0}
+    - _P2: {r: -2.062945, g: 0.56496906, b: -0.033, a: 0}
     - _Position: {r: 0.151, g: 0.739, b: -0.26, a: 0}
