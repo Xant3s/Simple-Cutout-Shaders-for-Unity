@@ -14,8 +14,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3500
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -25,14 +26,27 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _EdgeThickness: 0.505
+    - Boolean_AB3FD8E6: 1
+    - Vector1_70D3D819: 0
+    - _EdgeThickness: 0.05
     - _Invert: 0
     m_Colors:
-    - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.66999996}
-    - _BoxPosition: {r: -1.823, g: 1.717, b: 1.862, a: 0}
+    - Vector3_188BC24: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_3EE213E6: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_DF0A7B90: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_212581EE: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_25E34DD9: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_46E42A4F: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_DAB288F5: {r: 0.279, g: 0.452, b: 0, a: 1}
+    - Vector4_F0D388B3: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseMapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BoxPosition: {r: -1.375, g: 0.681, b: -0.308, a: 0}
+    - _BoxRotation: {r: -0, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v1: {r: 1, g: 0, b: 0, a: 0}
     - _BoxRotationMatrix_v2: {r: 0, g: 1, b: 0, a: 0}
     - _BoxRotationMatrix_v3: {r: 0, g: 0, b: 1, a: 0}
     - _BoxRotationMatrix_v4: {r: 0, g: 0, b: 0, a: 1}
-    - _BoxScale: {r: 0.5, g: 0.5, b: 0.5, a: 0}
-    - _EdgeColor: {r: 0.14509805, g: 0.7372549, b: 1, a: 1}
+    - _BoxScale: {r: 0.79915, g: 0.79915, b: 0.79915, a: 0}
+    - _EdgeColor: {r: 0, g: 0.79607844, b: 1, a: 0}
+    - _Test: {r: 5, g: 5, b: 5, a: 0}
+    - _Test2: {r: 5, g: 5, b: 5, a: 6}
