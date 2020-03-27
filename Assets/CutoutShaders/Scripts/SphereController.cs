@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 [ExecuteAlways]
@@ -9,7 +7,7 @@ public class SphereController : MonoBehaviour {
     public Material[] materials;
     private static readonly int sphereCutout = Shader.PropertyToID("_SphereCutout"); // XZY: position, W: radius
 
-    void Update() {
+    private void Update() {
         if(materials == null || materials.Length == 0) return;
         foreach(var material in materials) {
             var pos = transform.position;

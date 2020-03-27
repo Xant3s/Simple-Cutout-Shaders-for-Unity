@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 
@@ -43,7 +40,7 @@ public class ConeController : MonoBehaviour {
         }
     }
 
-    void Update() {
+    private void Update() {
         if (materials == null || materials.Length == 0) return;
         foreach (var material in materials) {
             material.SetVector(coneTip, transform.position);

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -35,7 +33,7 @@ public class BoxController : MonoBehaviour {
         }
     }
 
-    void Update() {
+    private void Update() {
         if (materials == null || materials.Length == 0) return;
         foreach (var material in materials) {
             material.SetVector(boxPosition, transform.position);
