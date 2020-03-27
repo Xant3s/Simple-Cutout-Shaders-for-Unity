@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -32,7 +30,7 @@ public class CapsuleController : MonoBehaviour {
         }
     }
 
-    void Update() {
+    private void Update() {
         if (materials == null || materials.Length == 0) return;
         foreach (var material in materials) {
             var position = transform.position;
