@@ -32,4 +32,4 @@ Material:
     - Color_E37EBD01: {r: 0, g: 0.614023, b: 1, a: 0}
     - _BaseMapColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
     - _PlaneNormal: {r: -0.3413812, g: 0.93992496, b: 0, a: 0}
-    - _PlanePosition: {r: -0.092, g: 0.714, b: 0, a: 0}
+    - _PlanePosition: {r: -0.092, g: 0.204, b: 0, a: 0}
